@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+body{
+    font-family: "Spline Sans",sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #777;
+}
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+
+}
+a:hover {
+    color: #F58d17;
+}
+img {
+    width: 100%;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-inline: 10px;
+    
+}
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cont{
+    padding: 10px;
+}
+
+.btn {
+    padding: 14px 38px;
+    border: 2px;
+    color: #fff;
+    
+
+
+}
+.btn:hover {
+    color: #fff;
+    
+    font-weight:500 ;
+   
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.slide-1{
+    background: linear-gradient(#0c020267,#00000048), url(./restaurant\ 1.jpeg);
+}
+.slide-2{
+    background: linear-gradient(#0c020267,#00000048), url(./restaurant\ 2.jpeg);
+}
+.slide-3{
+    background: linear-gradient(#0c020267,#00000048), url(./restaurant\ 3\ \(2\).jpeg);
+}
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align:middle ;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #0000007d;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.ctnt{
+    height: 35px;
+    margin: 15%;
+    
+}
+/* About */
+.image-one{
+    margin-right: 10px;
+}
+/* intro text */
+
+.intro-text{
+     margin-bottom: 40px;
+     text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto ;
+}
+ /* menu */
+ #Restaurants .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+ }
+ #Restaurants .nav-pills .nav-link.active{
+    background-color: #f58d17;
+    color: white;
+ }
+ .menu-item .stars{
+    color: #f58d17;
+ }
+ .menu-row {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    margin: 10px; /* Adjust as needed */
+}
+
+.menu-template {
+    /* Style your menu template as needed */
+    width: 200px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Example background color */
+    border: 1px solid #ccc; /* Example border */
+    margin: 20px; /* Adjust margin as needed */
+}
+#Features{
+    background: linear-gradient(#0c020267,#00000048), url(./WhatsApp\ Image\ 2024-03-29\ at\ 08.41.16_0a3617ea.jpg);
+}
+.feature{
+    border: 2px solid rgba(255, 255, 244, 0.2
+    )
+}
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid   
+}
+.secondcard {
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+}
+.image {
+    height: 180px;
+    width: 100px;
+}
+.third-heading {
+    color: #0f0e46;
+    font-family: "bree serif";
+    font-size: 15px;
+    padding: 3px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.second-paragraph {
+    color: #7b8794;
+    font-family: "bree serif";
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 3px;
+    margin: 3px;
+}
+#rat{
+    color: orange;
+}
+.stars{
+    color: gold;
+}
+#blo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#txt{
+    color: black;
+}
+.support-section {
+    background-color: #bcf46d;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #4150d1;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
